@@ -2,13 +2,13 @@
 import { SITE } from "@config";
 
 const {
-    title,
-    description,
-    author = SITE.author,
-    keywords,
-    url,
-    twitterhandle,
-    image
+  title,
+  description,
+  author = SITE.author,
+  keywords,
+  url,
+  twitterhandle,
+  image
 } = Astro.props;
 
 const siteTitle = title ?? SITE.title;
@@ -69,8 +69,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 <!-- RSS auto-discovery -->
 <link
-    rel="alternate"
-    type="application/rss+xml"
-    title={siteTitle}
-    href="/rss.xml"
+  rel="alternate"
+  type="application/rss+xml"
+  title={siteTitle}
+  href="/rss.xml"
 />

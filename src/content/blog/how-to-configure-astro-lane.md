@@ -6,8 +6,8 @@ heroImage: ""
 featured: true
 draft: false
 tags:
-    - config
-    - docs
+  - config
+  - docs
 ---
 
 Astro Lane is a great customizable blog theme for Astro, allowing you to easily make changes and give your site a personal touch. In this post, we'll show you some straightforward ways to customize the default data on your site.
@@ -20,14 +20,14 @@ If you're looking to configure some global data on your site, you'll want to mod
 
 ```ts
 export const SITE: Site = {
-    siteUrl: "https:/astro-lane.chrstnl.com", // Global Site URL
-    author: "chrstnl", // Author for Posts
-    desc: "A personal portfolio landing template for developers and designers.", // Default site description
-    title: "Astro Lane", // Default site title
-    ogImage: "images/lane.png", // Default ogImage
-    keywords:
-        "Personal portfolio, landing page, page template, developer portfoliom designer portfolio", //Default Keywords
-    postPerPage: 3 // Default number of posts per page
+  siteUrl: "https:/astro-lane.chrstnl.com", // Global Site URL
+  author: "chrstnl", // Author for Posts
+  desc: "A personal portfolio landing template for developers and designers.", // Default site description
+  title: "Astro Lane", // Default site title
+  ogImage: "images/lane.png", // Default ogImage
+  keywords:
+    "Personal portfolio, landing page, page template, developer portfoliom designer portfolio", //Default Keywords
+  postPerPage: 3 // Default number of posts per page
 };
 ```
 
@@ -41,13 +41,13 @@ You can add your project data to the data folder in your project directory. You 
 
 ```json
 [
-    {
-        "id": "1",
-        "title": "Astro Lane",
-        "logo": "/icons/astro-lane-icon.png",
-        "link": "https://astro-lane.chrstnl.com/",
-        "shortExcerpt": "A theme made for you!"
-    }
+  {
+    "id": "1",
+    "title": "Astro Lane",
+    "logo": "/icons/astro-lane-icon.png",
+    "link": "https://astro-lane.chrstnl.com/",
+    "shortExcerpt": "A theme made for you!"
+  }
 ]
 ```
 

@@ -6,9 +6,9 @@ heroImage: "/images/placeholder-hero.jpg"
 featured: true
 draft: false
 tags:
-    - post
-    - guide
-    - markdown
+  - post
+  - guide
+  - markdown
 ---
 
 ## Hello World
@@ -53,9 +53,9 @@ Here is a horizontal rule.
 
 Here is a list:
 
--   Item number 1
--   Item number 2
--   Item number 3
+- Item number 1
+- Item number 2
+- Item number 3
 
 And an ordered list:
 

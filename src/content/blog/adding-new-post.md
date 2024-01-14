@@ -4,8 +4,8 @@ title: Adding posts in Astro Lane
 featured: true
 draft: false
 tags:
-    - docs
-    - guide
+  - docs
+  - guide
 heroImage: ""
 description: "Rules & recommendations for creating or adding posts using Astro Lane."
 ---
@@ -42,9 +42,9 @@ If you there's no specified `tags` in a blog post, the default tag `others` will
 ```ts
 // src/contents/config.ts
 export const blogSchema = z.object({
-    // ---
-    // replace "others" with whatever you want
-    tags: z.array(z.string()).default(["others"])
+  // ---
+  // replace "others" with whatever you want
+  tags: z.array(z.string()).default(["others"])
 });
 ```
 
@@ -61,8 +61,8 @@ pubDate: 2023-03-25
 featured: true
 draft: false
 tags:
-    - example
-    - tags
+  - example
+  - tags
 heroImage: ""
 description: This is the example description of the example post.
 ---
@@ -88,10 +88,10 @@ Here are some sample text from the example above.
 
 It's recommended that you compress any images you add to your blog post, as this can affect the overall performance of your website. Some recommended image compression tools include TinyPng, ShortPixel, TinyJPG, and Kraken.
 
--   [TinyPng](https://tinypng.com/)
--   [ShortPixel](https://shortpixel.com/online-image-compression)
--   [TinyJPG](https://tinyjpg.com/)
--   [Kraken](https://kraken.io/)
+- [TinyPng](https://tinypng.com/)
+- [ShortPixel](https://shortpixel.com/online-image-compression)
+- [TinyJPG](https://tinyjpg.com/)
+- [Kraken](https://kraken.io/)
 
 ## Headings suggestions
 
